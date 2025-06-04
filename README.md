@@ -1,2 +1,2 @@
-# my_basic_web_server
-so i am creating this basic web server as a project in python
+#Web Scraper
+i wanna create this simple web scraper through the help from some toturials 
