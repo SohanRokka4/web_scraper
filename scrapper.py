@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import csv
+import time
 
 base_url = "http://books.toscrape.com/catalogue/page-{}.html"
 
@@ -19,3 +20,4 @@ for page in range(1, 6):  # Scrape first 5 pages
             writer.writerow([title, price])
     
     print(f"Scraped page {page}")
+    time.sleep(2)
